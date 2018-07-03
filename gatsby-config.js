@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: 'site',
   siteMetadata: {
     title: 'Henrique Craveiro',
     siteUrl: `https://henriquecraveiro.com.br`,
