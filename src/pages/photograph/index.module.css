@@ -1,0 +1,26 @@
+.photolist{
+  line-height: 0;
+  -webkit-column-count: 3;
+  -webkit-column-gap:   20px;
+  -moz-column-count:    3;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           20px; 
+  padding: 20px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.photo{
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 500px){
+  .photolist{
+    -webkit-column-count: 2;
+    -moz-column-count:    2;
+    column-count:         2;
+  }
+  
+}

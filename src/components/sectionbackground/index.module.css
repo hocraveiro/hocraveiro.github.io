@@ -1,0 +1,31 @@
+.sectionbackground{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  height: 500px;
+}
+
+.sectionbackground h1, .sectionbackground h2{
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  font-weight: normal;
+}
+.sectionbackground h1{
+  color: #F2F2F2;
+  font-size: 45px;
+  margin-bottom: 8px;
+}
+
+.sectionbackground h2{
+  color: #F2F2F2;
+  font-weight: normal;
+  font-size: 27px;
+}
+
+.sectionbackground a{
+  color: #F2F2F2;
+  text-decoration: underline;
+}
