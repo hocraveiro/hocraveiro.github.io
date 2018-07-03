@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Henrique Craveiro',
+    siteUrl: `https://henriquecraveiro.com.br`,
+    description: `Blazing-fast static site generator for React`
   },
   plugins: [
     'gatsby-plugin-react-helmet',

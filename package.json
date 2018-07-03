@@ -14,6 +14,7 @@
     "isomorphic-fetch": "^2.2.1",
     "node-fetch": "^2.1.2",
     "react-helmet": "^5.2.0",
+    "react-typist": "^2.0.4",
     "typography-theme-github": "^0.15.10",
     "unsplash-js": "^4.8.0",
     "whatwg-fetch": "^2.0.4"
@@ -26,9 +27,11 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
+    "gh-pages": "^1.2.0",
     "prettier": "^1.12.0"
   },
   "repository": {
