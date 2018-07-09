@@ -41,7 +41,6 @@ unsplash.users.photos("hocraveiro", 1, 20, "recent", false)
   .then(toJson)
   .then(response => {
     const photos = response.map(photo => photo.urls.regular);
-    console.log(response[0])
     savePhotos(photos);
   });
 
@@ -54,7 +53,6 @@ const saveLatestPostsMd = (posts) => {
     if(err) {
         throw new Error(err);
     }
-    console.log("The file was saved!");
   }); 
 }
 
@@ -67,6 +65,5 @@ const savePhotos = (photos) => {
     if(err) {
         throw new Error(err);
     }
-    console.log("The file was saved!");
   }); 
 }

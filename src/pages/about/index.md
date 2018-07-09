@@ -11,6 +11,7 @@ I love team working, I believe that for a team have success in product developme
 - PHP (Zend Framework)
 - HTML e Template Languages
 - CSS (Stylus, SASS)
+- Ionic (Cordova)
 - MySQL, MongoDB e SQLServer
 - Scrum and Kanban
 
