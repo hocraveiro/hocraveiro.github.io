@@ -1,8 +1,25 @@
 .sociallinks{
   display: flex;
   margin-top: 50px;
+  width: 300px;
+  justify-content: space-between;
 }
 
-.sociallinks > a{
-  margin: 10px;
+
+.sociallinks > a > svg{
+  width: 40px;
+}
+
+@media (max-width: 600px){
+  .sociallinks{
+    justify-content: space-between;
+    width: 280px;
+  }
+  .sociallinks > a{
+    margin: 0px;
+  }
+  
+  .sociallinks > a > svg{
+    width: 30px;
+  }
 }

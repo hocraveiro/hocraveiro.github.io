@@ -62,13 +62,13 @@
   justify-content: center;
   flex-wrap: wrap;
   padding: 10px;
-  width: 70px;
+  width: 60px;
   height: 60px;  
 }
 
 .menubutton .line {
   width: 50px;
-  height: 5px;
+  height: 3px;
   background-color: #FFF;
   display: block;
   margin: 0px auto;
