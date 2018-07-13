@@ -32,6 +32,9 @@
 
 
 @media (max-width: 600px){
+  .sectionbackground{
+    height: 350px;
+  }
   .sectionbackground h1{
     font-size: 28px;
   } 

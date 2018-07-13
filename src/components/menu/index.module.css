@@ -62,8 +62,8 @@
   justify-content: center;
   flex-wrap: wrap;
   padding: 10px;
-  width: 60px;
-  height: 60px;  
+  width: 50px;
+  height: 50px;  
 }
 
 .menubutton .line {
@@ -86,7 +86,7 @@
 }
 
 .active .menubutton > div:nth-child(3) {
-  transform: translateY(-14px) rotate(-45deg);
+  transform: translateY(-11px) rotate(-45deg);
 }
 
 
