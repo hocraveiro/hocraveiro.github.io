@@ -1,6 +1,6 @@
 # About me
 
-My name is **Henrique Craveiro**, I was born in a small village called Japurá in the interior of Paraná state of Brazil, at present I'm doing a exchange progam in Limerick,Ireland.
+My name is **Henrique Craveiro**, I was born in a small town called Japurá in the interior of Paraná state of Brazil, at present I'm doing a exchange progam in Limerick,Ireland.
 
 I work for 5 years with web and mobile development, I've worked for the following companies [Brainn.co](https://brainn.co/),  [Virtual Age by Totvs](http://virtualage.com.br/), [Marknet](http://www.marknet.com.br/). In addition I've a degree in software analysis and development and a post graduation in web and mobile developement.
 
