@@ -29,3 +29,13 @@
   color: #F2F2F2;
   text-decoration: underline;
 }
+
+
+@media (max-width: 600px){
+  .sectionbackground h1{
+    font-size: 28px;
+  } 
+  .sectionbackground h2{
+    font-size: 16px;
+  }
+}
