@@ -20,8 +20,8 @@ class Layout extends Component {
         <Helmet
           title='Henrique Craveiro'
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Henrique Craveiro full stack web developer based in Limerick Irelanda.' },
+            { name: 'keywords', content: 'Full stack, Web Developer, Henrique Craveiro, hocraveiro' },
           ]}
         />
         <Menu/>

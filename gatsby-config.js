@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: 'site',
   siteMetadata: {
-    title: 'Henrique Craveiro',
+    title: 'Henrique Craveiro - Full Stack Web Developer',
     siteUrl: `https://henriquecraveiro.com.br`,
-    description: `Blazing-fast static site generator for React`
+    description: `Henrique Craveiro full stack web developer based in Limerick Irelanda.`
   },
   plugins: [
     'gatsby-plugin-react-helmet',
