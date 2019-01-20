@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Typist from 'react-typist';
 import Container from '../components/container/index';
 import SectionBackground from '../components/sectionbackground';
-
+import Layout from '../components/layout';
 import styles from './index/index.module.css';
 import background from './index/background.jpg';
 import 'react-typist/dist/Typist.css';
@@ -19,7 +19,7 @@ export default class IndexPage extends Component {
 
   render(){
     return (
-      <div>
+      <Layout>
         <SectionBackground background={background}>
         <Typist cursor={{ hideWhenDone: true, hideWhenDoneDelay: 0 }} onTypingDone={this.onTypingDone.bind(this)} className={styles.title}>
             Hello!<br/><Typist.Delay ms={1000} />I am<Typist.Backspace count={3} delay={300} />
@@ -45,7 +45,7 @@ export default class IndexPage extends Component {
             </div>
           ))}
         </Container>
-      </div>
+      </Layout>
     );
   }
 };

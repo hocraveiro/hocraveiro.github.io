@@ -25,7 +25,7 @@ class Layout extends Component {
           ]}
         />
         <Menu/>
-        {this.props.children()}
+        {this.props.children}
         <footer>
             <p className={styles.footertext}>Made with ❤️ by Henrique Craveiro using React, JavaScript and custom CSS.</p>
         </footer>

@@ -1,14 +1,13 @@
 import React from "react";
 import SectionBackground from '../../components/sectionbackground';
 import Container from "../../components/container/index";
+import Layout from "../../components/layout";
 import styles from "./index.module.css";
 import background from './background.jpg';
 
 export default ({data}) =>
-  <div>
-    <SectionBackground background={background}>
-      
-    </SectionBackground>
+  <Layout>
+    <SectionBackground background={background} /> 
     <Container>
       <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
       <h1>Get in touch</h1>
@@ -27,7 +26,7 @@ export default ({data}) =>
         </a>
       </div>
     </Container>
-  </div>
+  </Layout>
 
 export const query = graphql`
   query BlogAboutQuery {

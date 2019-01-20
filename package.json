@@ -1,24 +1,29 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "hocraveiro.github.io",
+  "description": "My personal web page built using React and Gatsby.js",
+  "version": "2.0.0",
+  "author": "Henrique Craveiro <hocraveiro@gmail.com>",
   "dependencies": {
-    "es6-promise": "^4.2.4",
-    "gatsby": "^1.9.247",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-react-helmet": "^2.0.10",
-    "gatsby-plugin-typography": "^1.7.19",
-    "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-remark": "^1.7.44",
+    "es6-promise": "^4.2.5",
+    "gatsby": "^2.0.91",
+    "gatsby-link": "^2.0.8",
+    "gatsby-plugin-react-helmet": "^3.0.5",
+    "gatsby-plugin-typography": "^2.2.5",
+    "gatsby-source-filesystem": "^2.0.16",
+    "gatsby-transformer-remark": "^2.2.0",
     "isomorphic-fetch": "^2.2.1",
-    "node-fetch": "^2.1.2",
+    "node-fetch": "^2.3.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
-    "react-responsive": "^4.1.0",
-    "react-typist": "^2.0.4",
-    "typography-theme-github": "^0.15.10",
+    "react-responsive": "^6.0.1",
+    "react-typist": "^2.0.5",
+    "react-typography": "^0.16.18",
+    "typography": "^0.16.18",
+    "typography-theme-github": "^0.16.18",
     "unsplash-js": "^4.8.0",
-    "whatwg-fetch": "^2.0.4"
+    "url-parse": "^1.4.4",
+    "whatwg-fetch": "^3.0.0"
   },
   "keywords": [
     "gatsby"
@@ -32,8 +37,8 @@
     "deploy": "gatsby build --prefix-paths && ./node_modules/.bin/gh-pages -d public -b gh-pages"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0",
-    "prettier": "^1.12.0"
+    "gh-pages": "^2.0.1",
+    "prettier": "^1.16.0"
   },
   "repository": {
     "type": "git",
